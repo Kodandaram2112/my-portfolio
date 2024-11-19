@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <title>Personal Portfolio Webiste</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/38941f8060.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">My Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div style="font-size: 30px; margin-top: 20%;" class="header-text"></div>
+            <p style="font-size: 30px;">Graduate Student in Computer Science</p>
+            <h1 style="font-size: 60px; margin-top: 20px;">Kodandaram Sri Satya Sai<br>Merla</h1>
+            <a href="images/Kodandaram-Sri-Satya-Sai-Merla-Resume (1).pdf" target="_blank" class="btn btn2">My Resume</a>
+    </div>
+</div>
+<!-- --About----  -->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/Phone_Background.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a Master’s student in Computer Science at George Mason University, 
+                    with hands-on experience in software development, machine learning, and 
+                    web development. My recent project, Retinal Disease Classification using 
+                    EfficientNet-B3, involved building a deep learning model to classify retinal 
+                    diseases accurately, aiming to support early diagnosis and improve patient 
+                    outcomes. I also presented a paper on "Voice Enabled Form Filling Using 
+                    Hidden Markov Model", which was also one of my projects at IACC 2023. <br><br>
+                    I bring strong programming expertise in C, Python, Java, HTML/CSS, and 
+                    JavaScript, along with problem-solving and teamwork skills. Currently, 
+                    I'm expanding my knowledge and practical skills, working as an event 
+                    assistant and actively seeking internship opportunities that will allow 
+                    me to apply and further develop my technical expertise in real-world scenarios.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages & Tools</span><br>C, Python, Java, SQL, Linux</li>
+                            <li><span>Web Development</span><br>HTML/CSS, JavaScript</li>
+                            <li><span>Technical Skills</span><br>Data Structures & Algorithms (DSA), Problem Solving</li>
+                            <li><span>Soft Skills</span><br>Communication, Teamwork, Detail Orientation, Creativity</li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Oct 2024 – Present (Part-time)</span><br><strong>Event Assistant at GMU Student Centers</strong></li>
+                            <li><strong>Responsibilities:</strong><br>
+                                <ul>
+                                    <li>Coordinate and assist in organizing student events, ensuring smooth execution and a positive attendee experience.</li>
+                                    <li>Develop key skills in communication, organization, and teamwork through event management and customer service.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor of Technology, Computer Science</span><br><strong>Velagapudi Ramakrishna Siddhartha Engineering College, 2020-2024</strong><br>Honors in Full Stack Development<br>GPA: 8.33/10</li>
+                            <li><span>Masters in Computer Science</span><br><strong>George Mason University</strong><br>August 2024 - Present</li>
+                        </ul>
+                    </div>
+                    
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- My Work -->
+ <div id="work">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list";>
+            <div class="work">
+                <img src="images/Major_project_image.jpg">
+                <i class="fas fa-eye icon-large"></i>
+                <h2>Retinal Disease Classification using EfficientNet-B3</h2>
+                <div class="layer">
+                    <h3 style="margin: 10px;">Retinal Disease Classification using<br>EfficientNet-B3</h3>
+                    <p style="text-align: justify; margin: 15px;">This project focuses on classifying retinal images to detect eye conditions like Normal, 
+                        Cataract, Glaucoma, and Diabetic Retinopathy. Using the EfficientNet model and transfer
+                         learning, we fine-tuned pre-trained weights on a retinal image dataset. Image 
+                         preprocessing and augmentation improved data quality, and the model showed promising 
+                         results in accuracy and precision. This approach aims to assist healthcare professionals 
+                         in diagnosing retinal diseases effectively.</p>
+                    <a href="https://github.com/Kodandaram2112/Retinal-Disease-Classification" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square icon-small"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Mini_project_image.jpg">
+                <i class="fa-solid fa-microphone"></i>
+                <h2>Voice Enabled Form Filling Using Hidden Markov Model</h2>
+                <div class="layer">
+                    <h3 style="margin: 10px;">Voice Enabled Form Filling Using <br>Hidden Markov Model</h3>
+                    <p style="text-align: justify; margin: 15px;">Our project focuses on automating the form-filling process using speech recognition
+                        technology to simplify tasks like job applications and internship submissions. The
+                        system analyzes a user's voice, converts speech into text, and seamlessly fills
+                        out forms, reducing the challenges of manual typing. This solution leverages a 
+                        machine learning model based on the Hidden Markov Model, with Mel Frequency 
+                        Cepstral Coefficients (MFCCs) as the preprocessing technique, widely recognized
+                        in speech recognition. The approach aims to enhance efficiency and accessibility
+                         in environments where voice-enabled automation is essential.</p>
+                    <a href="https://github.com/Kodandaram2112/Voice-Enabled-Form-Filling" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square icon-small"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Paper_publication_image.jpg">
+                <i class="fas fa-file-alt"></i>
+                <h2 style="margin: 10px;">Paper Publication on HMM-Based Voice Form Filling</h2>
+                <div class="layer">
+                    <h3>Paper Publication on HMM-Based <br>Voice Form Filling</h3>
+                    <p style="text-align: justify; margin: 15px;">This paper is published based on the project Voice Enabled Form Filling Using Hidden 
+                        Markov Models, which was presented at IACC 2023. The project, developed in collaboration 
+                        with my teammates, focuses on automating the form-filling process using speech 
+                        recognition technology. The paper delves into the methodology, including the use of Hidden 
+                        Markov Models and MFCC, to accurately transcribe speech 
+                        into text for efficient data entry. This work highlights the potential of voice-enabled 
+                        systems to streamline tasks and improve accessibility.</p>
+                    <a href="https://link.springer.com/chapter/10.1007/978-3-031-56700-1_18" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square icon-small"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/Kodandaram2112?tab=repositories" target="_blank" class="btn">See More</a>
+    </div>
+ </div>
+
+
+<!--contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>kmerla@gmu.edu</p>
+                <p><i class="fa-solid fa-phone"></i> 571-310-9177</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/kodandaram-m-177665233/" target="_blank"><img src="images/Linedin Logo.png" alt="Linkedin Icon" style="width: 25px;"></a>
+                    <a href="https://leetcode.com/u/mkodandaram2112/" target="_blank"><img src="images/Leetcode_logo.png" alt="LeetCode Icon" style="width: 25px;"></a>
+                    <a href="https://github.com/Kodandaram2112" target="_blank"><img src="images/github-logo.jpg" alt="GitHub Icon" style="width: 28px;"></a>
+                </div>
+                <p></p>
+                <p></p>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+</body>
+</html>
